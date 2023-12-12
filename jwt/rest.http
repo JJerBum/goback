@@ -1,0 +1,31 @@
+POST http://localhost:9190/api/v1/signin
+Content-Type: application/json
+
+{
+    "id": "junbum",
+    "password": "jun"
+}
+###
+
+POST http://localhost:9190/api/v1/signup
+Content-Type: application/json
+
+{
+    "id": "junbum",
+    "password": "jun"
+}
+###
+
+POST http://localhost:9190/api/v1/jwt/refresh
+Content-Type: application/json
+
+{
+    "refreshToken": ""
+}
+###
+
+POST http://localhost:9190/api/v1/jwt/validation
+Content-Type: application/json
+Authorization: Bearer 
+
+### 
